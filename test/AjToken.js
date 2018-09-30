@@ -8,7 +8,7 @@ contract('AjToken', function(accounts) {
       tokenInstance = instance;
       return tokenInstance.name();
     }).then(function(name) {
-      assert.equal(name, 'Aj Token', 'has the correct name');
+      assert.equal(name, 'AJ Token', 'has the correct name');
       return tokenInstance.symbol();
     }).then(function(symbol) {
       assert.equal(symbol, 'AJ', 'has correct symbol');

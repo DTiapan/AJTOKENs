@@ -1,9 +1,9 @@
 pragma solidity ^0.4.2;
 
 contract AjToken {
-    string  public name = "Aj Token";
-    string  public symbol = "Aj";
-    string  public standard = "Aj Token v1.0";
+    string  public name = "AJ Token";
+    string  public symbol = "AJ";
+    string  public standard = "AJ Token V1.0 standard";
     uint256 public totalSupply;
 
     event Transfer(
